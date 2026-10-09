@@ -1,0 +1,10 @@
+```
+*.Rproj.user
+*Rproj
+*.Rhistory
+*.RData
+*.Ruserdata
+*.png
+*.html
+*.csv
+```

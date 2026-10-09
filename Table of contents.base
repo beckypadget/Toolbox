@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: View
+  - type: list
+    name: View 2
+    sort:
+      - property: file.mtime
+        direction: DESC
+    indentProperties: true
