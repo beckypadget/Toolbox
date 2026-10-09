@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Scientific Toolbox.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Scientific Toolbox"
+              "title": "README"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The Scientific Toolbox.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Scientific Toolbox.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Scientific Toolbox.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,7 +191,7 @@
   "active": "3bcf9ab003aa8696",
   "lastOpenFiles": [
     "Word processing/Full manuscript preamble.md",
-    "The Scientific Toolbox.md",
+    "README.md",
     "Statistical analysis/Bayesian model output workflow.md",
     "Full project workflow.canvas",
     "Statistical analysis/General git ignore for R-based projects.md"
