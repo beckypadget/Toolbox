@@ -1,7 +1,5 @@
 This code produces a plot of a continuous response with multiple categorical predictors. It has violins showing the data and pointranges showing the model predictions, as shown in the figure below. This code can be changed to remove the faceting, colours etc to suit the needs of the plot.
 
-![[violin-pointrange-example.png]]
-
 ```r
 plot_template <- ggplot() +
   geom_pointrange(data = summary_data,

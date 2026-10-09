@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Statistical analysis/Violin + pointrange plot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Violin + pointrange plot"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Statistical analysis/Violin + pointrange plot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Statistical analysis/Violin + pointrange plot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Statistical analysis/Violin + pointrange plot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +190,9 @@
   },
   "active": "3bcf9ab003aa8696",
   "lastOpenFiles": [
-    "Word processing/Full manuscript preamble.md",
     "README.md",
+    "violin-pointrange-example.png",
+    "Word processing/Full manuscript preamble.md",
     "Statistical analysis/Bayesian model output workflow.md",
     "Full project workflow.canvas",
     "Statistical analysis/General git ignore for R-based projects.md"
