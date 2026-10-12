@@ -1,4 +1,4 @@
-<img src=logo.png alt="logo" width="200" />
+<img src=logo.png alt="logo" width="200" align="right" />
 
 ## A Scientific Toolbox
 ### Tips, tricks and snippets
