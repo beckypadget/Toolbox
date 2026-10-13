@@ -3,11 +3,11 @@ Running (e.g., agent-based) models often results in many outputted files that ul
 ---
 To use:
 1. Make sure all data files are in one folder; the first row of each data file should be identical and it should be the headers for the columns (i.e., all data files should be in exactly the same format).
-2. cd into the folder
+2. cd into the folder in terminal
 3. Run this code to combine all csv files in the folder into one
 
 ```
 awk '(NR == 1) || (FNR > 1)' *.csv > combined_data.csv
 ```
 
-There are different ways to specify which files you want. `*.csv` gets all files ending with `.csv`. If you were to use `data_*` instead, this would get all files beginning with `data_`. 
+There are different ways to specify which files you want. `*.csv` gets all files ending with `.csv`. If you were to use `data_*` instead, this would get all files beginning with `data_`.
