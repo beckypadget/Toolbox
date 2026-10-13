@@ -183,10 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "e430e1bb788cbb55",
+  "active": "77ce8438000fb767",
   "lastOpenFiles": [
-    "toolbox-logo-old.png",
     "toolbox-logo.png",
+    "toolbox-logo.png",
+    "toolbox-logo-old.png",
     "README.md",
     "logo.png",
     "Statistical analysis/General git ignore for R-based projects.md",
