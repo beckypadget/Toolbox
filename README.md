@@ -1,6 +1,6 @@
 
 
-## A Science Toolbox
+## A Biologist's Toolbox
 
 <img src=logo.png alt="logo" width="200" align="right" />
 
