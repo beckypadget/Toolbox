@@ -15,8 +15,8 @@
 		{"id":"76ff1a098a60055b","type":"text","text":"Submission\n[[Creating a tracked changes file from LaTeX documents]]","x":-200,"y":800,"width":305,"height":120,"color":"4"},
 		{"id":"2aa2b3913a67aadd","type":"text","text":"Plan study","x":-631,"y":-1480,"width":250,"height":60,"color":"#d831db"},
 		{"id":"4780a77c08c8ae88","type":"text","text":"Ideas","x":-425,"y":-1720,"width":250,"height":60,"color":"#d829db"},
-		{"id":"a270944af270b361","x":-181,"y":1000,"width":250,"height":60,"color":"3","type":"text","text":"Publication"},
-		{"id":"4ae2c0e914a2cf0c","x":-100,"y":1120,"width":250,"height":60,"color":"3","type":"text","text":"Promotion"},
+		{"id":"a270944af270b361","type":"text","text":"Publication","x":-181,"y":1000,"width":250,"height":60,"color":"3"},
+		{"id":"4ae2c0e914a2cf0c","type":"text","text":"Promotion","x":-100,"y":1120,"width":250,"height":60,"color":"3"},
 		{"id":"e60e6df00865f9e6","type":"text","text":"Data wrangling","x":-25,"y":-640,"width":250,"height":60,"color":"1"}
 	],
 	"edges":[
