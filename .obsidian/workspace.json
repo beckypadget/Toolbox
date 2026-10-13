@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Word processing/Full manuscript preamble.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Full manuscript preamble"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Word processing/Full manuscript preamble.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Word processing/Full manuscript preamble.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Word processing/Full manuscript preamble.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +190,7 @@
   },
   "active": "a66a3ec70d75673c",
   "lastOpenFiles": [
+    "Word processing/Creating a tracked changes file from LaTeX documents.md",
     "README.md",
     "logo.png",
     "logo.png.sb-bf23e4cf-wD4k4L",
@@ -199,7 +200,6 @@
     "Word processing/References in LaTeX.md",
     "Word processing/Most basic preamble.md",
     "Word processing/Full manuscript preamble.md",
-    "Word processing/Creating a tracked changes file from LaTeX documents.md",
     "Statistical analysis/Bayesian model output workflow.md",
     "File processing/Merging multiple data files.md",
     "Full project workflow.canvas",
