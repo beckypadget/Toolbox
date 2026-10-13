@@ -1,4 +1,4 @@
-You need to use the package `subcaption` so that the subfigures work.
+➡️ Remember to import `subcaption` first.
 
 ```
 \usepackage{subcaption}

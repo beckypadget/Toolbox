@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Word processing/Supplementary figures, equations and tables to start with S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Supplementary figures, equations and tables to start with S"
             }
           }
         ]
@@ -187,10 +187,11 @@
   },
   "active": "e430e1bb788cbb55",
   "lastOpenFiles": [
+    "Word processing/Subfigures in LaTeX.md",
+    "README.md",
     "Word processing/Creating a tracked changes file from LaTeX documents.md",
     "Word processing/Full manuscript preamble.md",
     "Word processing/References in LaTeX.md",
-    "README.md",
     "Table of contents.base",
     "Statistical analysis/Violin + pointrange plot.md",
     "Statistical analysis/Statistics resource list.md",
@@ -202,7 +203,6 @@
     "logo.png",
     "toolbox-logo-old.png",
     "Word processing/Supplementary figures, equations and tables to start with S.md",
-    "Word processing/Subfigure in LaTeX.md",
     "logo.png.sb-bf23e4cf-wD4k4L",
     "violin-pointrange-example.png"
   ]
