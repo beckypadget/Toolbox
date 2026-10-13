@@ -1,7 +1,7 @@
 This code produces a plot of a continuous response with multiple categorical predictors. It has violins showing the data and pointranges showing the model predictions, as shown in the figure below. This code can be changed to add faceting, change colours etc to suit the needs of the plot.
 ## Template
 
-🔔 Remember to import `ggplot2` and `dplyr` first.
+➡️ Remember to import `ggplot2` and `dplyr` first.
 
 ```r
 raw_data <- your_data %>%

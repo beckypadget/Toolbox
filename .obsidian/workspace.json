@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Statistical analysis/Bayesian model output workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Bayesian model output workflow"
             }
           }
         ]
@@ -187,22 +187,22 @@
   },
   "active": "e430e1bb788cbb55",
   "lastOpenFiles": [
+    "Statistical analysis/Violin + pointrange plot.md",
+    "Statistical analysis/Bayesian model output workflow.md",
+    "Statistical analysis/Statistics resource list.md",
+    "Statistical analysis/General git ignore for R-based projects.md",
+    "File processing/Merging multiple data files.md",
+    "Word processing/Creating a tracked changes file from LaTeX documents.md",
+    "Word processing/Full manuscript preamble.md",
+    "Word processing/References in LaTeX.md",
+    "Word processing/Most basic preamble.md",
+    "Full project workflow.canvas",
     "logo.png",
     "README.md",
     "Table of contents.base",
     "toolbox-logo-old.png",
-    "Statistical analysis/General git ignore for R-based projects.md",
-    "Statistical analysis/Statistics resource list.md",
-    "Statistical analysis/Violin + pointrange plot.md",
-    "Word processing/Creating a tracked changes file from LaTeX documents.md",
-    "Word processing/Full manuscript preamble.md",
-    "Word processing/Most basic preamble.md",
     "Word processing/Supplementary figures, equations and tables to start with S.md",
     "Word processing/Subfigure in LaTeX.md",
-    "Full project workflow.canvas",
-    "Statistical analysis/Bayesian model output workflow.md",
-    "File processing/Merging multiple data files.md",
-    "Word processing/References in LaTeX.md",
     "logo.png.sb-bf23e4cf-wD4k4L",
     "violin-pointrange-example.png"
   ]

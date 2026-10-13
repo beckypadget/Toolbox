@@ -1,37 +1,32 @@
 ## Bayesian model predictions — `brms` + `tidybayes`
 
 This template extracts posterior expected predictions from a fitted `brms` model using `epred_draws()`. It is useful when you want to retain the posterior draws so that you can calculate custom summaries, credible intervals, contrasts, or other quantities later.
+
+➡️ Remember to import `brms` and `tidybayes` first.
 ### The general logic
 
-```text
-fitted brms model
-       ↓
-choose prediction scenarios
-       ↓
-     newdata
-       ↓
-   epred_draws()
-       ↓
-posterior predictions
-       ↓
-summarise posterior
-       ↓
-median + 95% credible interval
-       ↓
-       plot
-```
+```mermaid
 
-The most important habit is: **decide what prediction scenarios you want first, then construct `newdata` to represent those scenarios.** The rest of the workflow can usually stay almost identical across models.
+flowchart TD
+    A[Fitted brms model] --> B[Choose prediction scenarios]
+    B --> C[newdata]
+    C --> D["epred_draws()"]
+    D --> E[Posterior predictions]
+    E --> F[Summarise posterior]
+    F --> G[Median + 95% credible interval]
+    G --> H[Plot]
+
+```
 
 ## Quick reusable version
 
-When you just need the standard workflow, this is the compact version:
+Template for *continuous* predictors:
 
 ```r
 newdata <- expand_grid(
   variable_of_interest = seq(min(data$variable_of_interest),
                              max(data$variable_of_interest),
-                             length.out = 20),
+                             length.out = 20)),
   second_predictor = c(
     round(quantile(data$second_predictor, 0.25), 2),
     round(quantile(data$second_predictor, 0.50), 2),
@@ -54,6 +49,30 @@ pred_summary <- tidy_pred %>%
   )
 ```
 
+Template for *categorical* predictors (for the first two predictors):
+
+```r
+newdata <- expand_grid(
+  variable_of_interest = c(value1, value2, value3),
+  second_predictor = c(value1, value2, value3),
+  third_predictor = mean(data$third_predictor),
+  fourth_predictor = round(mean(data$fourth_predictor))
+)
+
+tidy_pred <- fitted_model %>%
+  epred_draws(newdata = newdata, re_formula = NA)
+
+pred_summary <- tidy_pred %>%
+  group_by(variable_of_interest, second_predictor) %>%
+  summarise(
+    median = median(.epred),
+    lower = quantile(.epred, 0.025),
+    upper = quantile(.epred, 0.975),
+    .groups = "drop"
+  )
+```
+
+Note: This deals with random effects by *ignoring* them; use `NULL` to *include* all of them instead, or you can specify a specific group to make predictions for. See [tidybayes docs](https://mjskay.github.io/tidybayes/reference/add_predicted_draws.html) for more on this.
 ## Step-by-step
 ### 1. Create a prediction grid
 
@@ -78,7 +97,7 @@ newdata <- expand_grid(
 
 **What this does:** creates all combinations of the predictor values you want to make predictions for.
 
-For a continuous predictor, you might use `seq()` to generate a smooth range of values. For another predictor, you might use representative values such as the 25th, 50th, and 75th percentiles. Other predictors can be held constant, usually at their mean or another scientifically meaningful value.
+For a continuous predictor, you might use `seq()` to generate a smooth range of values. Alternatively, you can use representative values such as the 25th, 50th, and 75th percentiles. Other predictors can be held constant, usually at their mean or another scientifically meaningful value.
 
 ---
 
@@ -94,7 +113,7 @@ tidy_pred <- fitted_model %>%
 
 `epred_draws()` retains the posterior draws for the expected response rather than immediately reducing them to a single estimate.
 
-`re_formula = NA` gives population-level predictions by excluding the model's random effects. If predictions for particular groups/subjects are required, this can be changed.
+`re_formula = NA` gives population-level predictions by *excluding* the model's random effects. If predictions for particular groups/subjects are required, this can be changed (see [tidybayes docs](https://mjskay.github.io/tidybayes/reference/add_predicted_draws.html)).
 
 ---
 
@@ -152,7 +171,7 @@ tidy_pred %>%
   )
 ```
 
-I can then summarise `difference` in exactly the same way:
+You can then summarise `difference` in exactly the same way:
 
 ```r
 summarise(
