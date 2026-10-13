@@ -11,12 +11,14 @@
             "id": "e430e1bb788cbb55",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "toolbox-logo.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "toolbox-logo"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -185,10 +187,10 @@
   },
   "active": "e430e1bb788cbb55",
   "lastOpenFiles": [
-    "toolbox-logo-old.png",
-    "toolbox-logo.png",
     "toolbox-logo.png",
     "README.md",
+    "Table of contents.base",
+    "toolbox-logo-old.png",
     "logo.png",
     "Statistical analysis/General git ignore for R-based projects.md",
     "Statistical analysis/Statistics resource list.md",
@@ -203,7 +205,6 @@
     "File processing/Merging multiple data files.md",
     "Word processing/References in LaTeX.md",
     "logo.png.sb-bf23e4cf-wD4k4L",
-    "Table of contents.base",
     "violin-pointrange-example.png"
   ]
 }
