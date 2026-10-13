@@ -12,3 +12,5 @@ This toolbox is created using [Osidian][https://obsidian.md/], a free markdown v
 
 #### Please note
 I have created this for my own use and made it public in case it is useful for others but please be aware there may be errors so always check anything important :)
+
+Logo created with ChatGPT.
