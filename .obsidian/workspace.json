@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical analysis and visualisation/Make annotated text appear in the same place on a figure.md",
+                "file": "File processing/Merging multiple data files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Make annotated text appear in the same place on a figure"
+              "title": "Merging multiple data files"
             }
           }
         ],
@@ -202,22 +202,23 @@
   },
   "active": "fdbf4aa744aa2410",
   "lastOpenFiles": [
-    "README.md",
-    "Statistical analysis and visualisation/Make annotated text appear in the same place on a figure.md",
-    "Word processing/Supplementary figures, equations and tables to start with S.md",
-    "Word processing/Subfigures in LaTeX.md",
     "Word processing/Creating a tracked changes file from LaTeX documents.md",
     "Word processing/Full manuscript preamble.md",
+    "Word processing/Most basic preamble.md",
     "Word processing/References in LaTeX.md",
-    "Table of contents.base",
+    "Word processing/Subfigures in LaTeX.md",
+    "Word processing/Supplementary figures, equations and tables to start with S.md",
+    "README.md",
+    "logo.png",
+    "File processing/Merging multiple data files.md",
     "Statistical analysis and visualisation/Violin + pointrange plot.md",
     "Statistical analysis and visualisation/Statistics resource list.md",
+    "Statistical analysis and visualisation/Make annotated text appear in the same place on multiple figures.md",
+    "What is a conjugate prior?.md",
+    "Table of contents.base",
     "Statistical analysis and visualisation/General git ignore for R-based projects.md",
     "Statistical analysis and visualisation/Bayesian model output workflow.md",
-    "File processing/Merging multiple data files.md",
-    "Word processing/Most basic preamble.md",
     "Full project workflow.canvas",
-    "logo.png",
     "toolbox-logo-old.png",
     "logo.png.sb-bf23e4cf-wD4k4L",
     "violin-pointrange-example.png"

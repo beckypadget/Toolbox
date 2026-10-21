@@ -8,5 +8,5 @@ annotate("text",
                x = Inf, y = Inf, 
                hjust=1.1,
                vjust=1.1,
-               label = "your_label") +
+               label = "your_label")
 ```
