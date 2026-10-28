@@ -9,4 +9,5 @@ R likes to create many additional files but you probably just need the code file
 *.png
 *.html
 *.csv
+*.key
 ```
