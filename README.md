@@ -11,6 +11,6 @@ This toolbox is created using [Osidian][https://obsidian.md/], a free markdown v
 ![[Table of contents.base]]
 
 #### Please note
-I have created this for my own use and made it public in case it is useful for others but please be aware there may be errors so always check anything important (and do let me know if I've got somethine wrong!).
+I have created this for my own use and made it public in case it is useful for others but please be aware there may be errors so always check anything important (and do let me know if I've got something wrong!).
 
 Logo created with ChatGPT.
