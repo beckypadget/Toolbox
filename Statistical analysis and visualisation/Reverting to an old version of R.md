@@ -2,7 +2,7 @@ If you have (accidentally or otherwise) set it up so that R automatically update
 
 There is an app called [RSwitch](https://rud.is/rswitch/). RSwitch allows you to use any of your installed R versions just by changing a setting.
 
-How to save your old R files:
+How to switch R version:
 1. Download RSwitch zip from the website.
 2. Unzip it.
 3. Open the RSwitch application. RSwitch doesn't have a GUI or anything so it'll just show up as a menu item in the top right corner of the screen. If you click on this, you'll get some options. Mine looks like this:

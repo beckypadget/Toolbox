@@ -39,12 +39,14 @@
             "id": "5997892b077471f5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "RSwitch-screenshot.png"
+                "file": "Statistical analysis and visualisation/Reverting to an old version of R.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "RSwitch-screenshot"
+              "icon": "lucide-file",
+              "title": "Reverting to an old version of R"
             }
           }
         ],
@@ -212,12 +214,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "77ce8438000fb767",
+  "active": "5997892b077471f5",
   "lastOpenFiles": [
+    "RSwitch-screenshot.png",
     "README.md",
     "Statistical analysis and visualisation/General git ignore for R-based projects.md",
     "Statistical analysis and visualisation/Reverting to an old version of R.md",
-    "RSwitch-screenshot.png",
     "Statistical analysis and visualisation/Bayesian model output workflow.md",
     "Word processing/Supplementary figures, equations and tables to start with S.md",
     "Word processing/Most basic preamble.md",
