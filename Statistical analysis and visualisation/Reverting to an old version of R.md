@@ -6,4 +6,4 @@ How to save your old R files:
 1. Download RSwitch zip from the website.
 2. Unzip it.
 3. Open the RSwitch application. RSwitch doesn't have a GUI or anything so it'll just show up as a menu item in the top right corner of the screen. If you click on this, you'll get some options. Mine looks like this:
-4. Your installed versions of R should appear and you can just click the one you want, open RStudio and stop crying.![[Screenshot 2026-10-28 at 13.42.45.png]]
+4. Your installed versions of R should appear and you can just click the one you want, open RStudio and stop crying.![[RSwitch-screenshot.png]]
