@@ -7,6 +7,17 @@
 This is a repository for storing useful tips, tricks and templates for code. This includes R code for running and interpreting stats models as well as Python code for other modelling and whatever else will be useful to remember or have a template for.
 
 This toolbox is created using [Osidian][https://obsidian.md/], a free markdown visualisation/note-taking tool. For full functionality (i.e., links and canvas files), download this into an Obsidian vault.
+
+### Content overview
+#### File processing
+This folder contains things used for processing files (not data processing, which is in the Statistical analysis and visualisation folder). This is mostly bash commands.
+
+#### Statistical analysis and visualisation
+This is largely R tips, tricks and workflows, with maybe bits of python where relevant.
+
+#### Word processing
+This folder has mostly LaTeX code, and a bit of pandoc.
+
 ### Table of contents
 ![[Table of contents.base]]
 
