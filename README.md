@@ -1,6 +1,6 @@
 
 
-## A Biologist's Toolbox
+## A Behavioural Ecologist's Toolbox
 
 <img src=logo.png alt="logo" width="200" align="right" />
 

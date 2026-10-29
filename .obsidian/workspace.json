@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical analysis and visualisation/General git ignore for R-based projects.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "General git ignore for R-based projects"
+              "title": "README"
             }
           }
         ],
@@ -216,6 +216,7 @@
   },
   "active": "5997892b077471f5",
   "lastOpenFiles": [
+    "Statistical analysis and visualisation/General git ignore for R-based projects.md",
     "Statistical analysis and visualisation/Reverting to an old version of R.md",
     "Screenshot 2026-10-28 at 13.42.45.png",
     "Statistical analysis and visualisation/Bayesian model output workflow.md",
@@ -233,7 +234,6 @@
     "Statistical analysis and visualisation/Make annotated text appear in the same place on multiple figures.md",
     "What is a conjugate prior?.md",
     "Table of contents.base",
-    "Statistical analysis and visualisation/General git ignore for R-based projects.md",
     "Full project workflow.canvas",
     "toolbox-logo-old.png",
     "logo.png.sb-bf23e4cf-wD4k4L",
