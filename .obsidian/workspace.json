@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "8f27b496002e1e8e",
+        "id": "054cec35aed40be0",
         "type": "tabs",
         "children": [
           {
-            "id": "e430e1bb788cbb55",
+            "id": "7ebbc3806766215a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Word processing/Full manuscript preamble.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Full manuscript preamble"
             }
           },
           {
-            "id": "fdbf4aa744aa2410",
+            "id": "2fe74fb5715e3ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistical analysis and visualisation/Bayesian model output workflow.md",
+                "file": "Add line numbers to LaTeX document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bayesian model output workflow"
-            }
-          },
-          {
-            "id": "5997892b077471f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "Add line numbers to LaTeX document"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,18 +200,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "5997892b077471f5",
+  "active": "2fe74fb5715e3ccd",
   "lastOpenFiles": [
-    "Word processing/Most basic preamble.md",
     "Word processing/Full manuscript preamble.md",
+    "Add line numbers to LaTeX document.md",
+    "README.md",
+    "Statistical analysis and visualisation/Bayesian model output workflow.md",
+    "Word processing/Most basic preamble.md",
     "Word processing/Creating a tracked changes file from LaTeX documents.md",
     "Table of contents.base",
     "Statistical analysis and visualisation/Statistics resource list.md",
     "Statistical analysis and visualisation/Reverting to an old version of R.md",
     "RSwitch-screenshot.png",
-    "README.md",
     "Statistical analysis and visualisation/General git ignore for R-based projects.md",
-    "Statistical analysis and visualisation/Bayesian model output workflow.md",
     "Word processing/Supplementary figures, equations and tables to start with S.md",
     "File processing/Merging multiple data files.md",
     "Word processing/References in LaTeX.md",
