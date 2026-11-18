@@ -11,3 +11,4 @@ latexdiff --type=BOLD old.tex new.tex > diff.tex
 ```
 
 There are different options for `type`, I think it is possible to use highlighting etc. Beware, using bold will mean that line numbering doesn't match between the clean and the tracked changes version.
+Once you've got diff.tex, you can upload this to be your main.tex file in the project. This tex file is horrible to work with because it is fully of in-line formatting so I recommend that this is the last thing you do.

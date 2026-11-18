@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Add line numbers to LaTeX document"
             }
+          },
+          {
+            "id": "534c43a9ec7290c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Word processing/Creating a tracked changes file from LaTeX documents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Creating a tracked changes file from LaTeX documents"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,10 +214,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "2fe74fb5715e3ccd",
+  "active": "534c43a9ec7290c7",
   "lastOpenFiles": [
-    "Word processing/Full manuscript preamble.md",
+    "Word processing/Subfigures in LaTeX.md",
+    "Statistical analysis and visualisation/Manuscript-ready model output tables from R.md",
     "Add line numbers to LaTeX document.md",
+    "Word processing/Full manuscript preamble.md",
     "README.md",
     "Statistical analysis and visualisation/Bayesian model output workflow.md",
     "Word processing/Most basic preamble.md",
@@ -216,7 +232,6 @@
     "Word processing/Supplementary figures, equations and tables to start with S.md",
     "File processing/Merging multiple data files.md",
     "Word processing/References in LaTeX.md",
-    "Word processing/Subfigures in LaTeX.md",
     "logo.png",
     "Statistical analysis and visualisation/Violin + pointrange plot.md",
     "Statistical analysis and visualisation/Make annotated text appear in the same place on multiple figures.md",
