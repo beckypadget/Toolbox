@@ -185,7 +185,7 @@ This is one of the main advantages of retaining the posterior draws rather than 
 
 ---
 
-This code can be used in conjunction with [[Violin + pointrange plot]] for the complete model to plot workflow.
+This code can be used in conjunction with [[Violin + pointrange plot (R)]] for the complete model to plot workflow.
 
 ---
 This template explainer page was created by ChatGPT based on code written by me, and then it was edited by me.

@@ -3,7 +3,7 @@ Sometimes we want to make lots of plots and annotate them with something but we 
 * x, y, = Inf tells it that it's the top right corner
 * hjust, vjust = tell it to bring it inwards slightly in both directions
 
-```
+```r
 annotate("text", 
                x = Inf, y = Inf, 
                hjust=1.1,

@@ -1,0 +1,1 @@
+There are a couple of packages that allow you to convert R tables into LaTeX so then you can just copy and paste the code into your manuscript rather than typing every number out. Here is some code using xtable.
